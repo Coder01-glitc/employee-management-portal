@@ -1,0 +1,73 @@
+# 👨‍💼 Employee CRUD System
+
+A full-stack web application to manage employee records efficiently. Built with a Java backend and a dynamic JavaScript frontend, this system allows users to perform all essential Create, Read, Update, and Delete (CRUD) operations on employee data.
+
+---
+
+## 🚀 Features
+
+- ➕ Add new employee records
+- 📋 View list of all employees
+- ✏️ Update existing employee details
+- 🗑️ Delete employee records
+- 🔗 RESTful API integration between frontend and backend
+- 📱 Clean and responsive user interface
+
+---
+
+## 🛠️ Tech Stack
+
+**Backend:**
+- Java
+- Spring Boot
+- REST APIs
+
+**Frontend:**
+- HTML
+- CSS
+- JavaScript
+
+---
+
+## 📁 Project Structure
+
+```
+Employee-Crud-system/
+├── Backend/        # Java Spring Boot REST API
+├── Frontend/       # HTML, CSS, JavaScript UI
+└── README.md
+```
+
+---
+
+## ⚙️ Getting Started
+
+### Prerequisites
+- Java 17+
+- Node.js (for frontend, if applicable)
+- MySQL or any relational database
+- IntelliJ IDEA / VS Code
+
+### Backend Setup
+```bash
+cd Backend
+# Configure your database in application.properties
+./mvnw spring-boot:run
+```
+
+### Frontend Setup
+```bash
+cd Frontend
+# Open index.html in your browser
+# OR use Live Server in VS Code
+```
+
+---
+
+## 👨‍💻 Author
+
+**Krish Bharsadiya** — [GitHub](https://github.com/Coder01-glitc)
+
+---
+
+> Built to practice and demonstrate full-stack Java development with REST API integration.
