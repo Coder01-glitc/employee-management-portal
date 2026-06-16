@@ -1,40 +1,69 @@
-# 👨‍💼 Employee CRUD System
+# 👨‍💼 Employee Management Portal
 
-A full-stack web application to manage employee records efficiently. Built with a Java backend and a dynamic JavaScript frontend, this system allows users to perform all essential Create, Read, Update, and Delete (CRUD) operations on employee data.
+A full-stack web application built using **Spring Boot**, **React**, and **MySQL** to efficiently manage employee records. The application allows users to perform complete CRUD (Create, Read, Update, Delete) operations through a modern web interface and RESTful APIs.
 
 ---
 
 ## 🚀 Features
 
-- ➕ Add new employee records
-- 📋 View list of all employees
-- ✏️ Update existing employee details
-- 🗑️ Delete employee records
-- 🔗 RESTful API integration between frontend and backend
-- 📱 Clean and responsive user interface
+* ➕ Add new employees
+* 📋 View all employee records
+* ✏️ Update employee information
+* 🗑️ Delete employees
+* 🔄 REST API integration between frontend and backend
+* 💾 MySQL database connectivity
+* 📱 Responsive and user-friendly interface
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Backend:**
-- Java
-- Spring Boot
-- REST APIs
+### Backend
 
-**Frontend:**
-- HTML
-- CSS
-- JavaScript
+* Java 17
+* Spring Boot
+* Spring Data JPA
+* Hibernate
+* REST APIs
+* Gradle
+
+### Frontend
+
+* React.js
+* JavaScript (ES6+)
+* HTML5
+* CSS3
+* Axios
+
+### Database
+
+* MySQL
+
+### Tools
+
+* Git & GitHub
+* IntelliJ IDEA
+* VS Code
+* Postman
 
 ---
 
-## 📁 Project Structure
+## 📂 Project Structure
 
-```
-Employee-Crud-system/
-├── Backend/        # Java Spring Boot REST API
-├── Frontend/       # HTML, CSS, JavaScript UI
+```text
+EmployeeManagementPortal/
+│
+├── Backend/
+│   ├── src/
+│   ├── build.gradle
+│   └── ...
+│
+├── Frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── ...
+│
 └── README.md
 ```
 
@@ -43,31 +72,70 @@ Employee-Crud-system/
 ## ⚙️ Getting Started
 
 ### Prerequisites
-- Java 17+
-- Node.js (for frontend, if applicable)
-- MySQL or any relational database
-- IntelliJ IDEA / VS Code
+
+* Java 17+
+* Node.js
+* MySQL Server
+* Git
+
+---
 
 ### Backend Setup
+
 ```bash
 cd Backend
-# Configure your database in application.properties
-./mvnw spring-boot:run
+gradlew bootRun
 ```
 
+Configure your database credentials in:
+
+```properties
+src/main/resources/application.properties
+```
+
+---
+
 ### Frontend Setup
+
 ```bash
 cd Frontend
-# Open index.html in your browser
-# OR use Live Server in VS Code
+npm install
+npm start
 ```
+
+Frontend runs at:
+
+```text
+http://localhost:3000
+```
+
+Backend runs at:
+
+```text
+http://localhost:8080
+```
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helped me learn:
+
+* Spring Boot application architecture
+* RESTful API development
+* React component-based development
+* Database integration using JPA/Hibernate
+* Full-stack application development
+* Git and GitHub workflow
 
 ---
 
 ## 👨‍💻 Author
 
-**Krish Bharsadiya** — [GitHub](https://github.com/Coder01-glitc)
+**Krish Bharsadiya**
+
+GitHub: https://github.com/Coder01-glitc/employee-management-portal
 
 ---
 
-> Built to practice and demonstrate full-stack Java development with REST API integration.
+⭐ If you found this project useful, consider giving it a star.
