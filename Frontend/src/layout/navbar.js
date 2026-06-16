@@ -7,7 +7,7 @@ export default function navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Employee Management System
+            Employee Management Portal
           </Link>
           <button
             className="navbar-toggler"

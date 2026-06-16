@@ -1,4 +1,4 @@
-# Employee Management System Front-end - React
+# Employee Management Portal Front-end - React
 - **Back-end Component** using **Spring Boot & MySQL** is located here: https://github.com/Saad1929/Employee-Management-System
 ## Contents
 1. [ Brief Summary ](#summary)
